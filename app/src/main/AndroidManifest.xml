@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.foodapp">
-    <uses-permission android:name="android.permission.INTERNET" />
+    package="com.mobileStore">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -11,13 +11,13 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.FoodApp">
         <activity
-            android:name=".CartActivity"
+            android:name="com.mobileStore.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".detailActivity"
+            android:name="com.mobileStore.detailActivity"
             android:exported="false" />
         <activity
-            android:name=".splashActivity"
+            android:name="com.mobileStore.splashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.mobileStore.MainActivity"
             android:exported="false" />
     </application>
 
